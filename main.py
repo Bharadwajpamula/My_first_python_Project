@@ -2,7 +2,7 @@ import random
 
 print("Welcome to Number guessing Game.")
 print("To Win this game, Guess a correct number between 1 to 20 but you will be having only 5 attempts")
-attempt=0
+attempt=0 #atempts
 max_attempt=5
 
 numbers=random.randint(1,20)
